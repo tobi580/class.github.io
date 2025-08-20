@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <title>HAPPY BIRTHDAY TOBI.</title>
+    <style>
+      body {
+        margin: 200px 200px;
+        border: 5px solid rgb(0, 88, 139);
+        padding: 5px 9px;
+        background-color: #eee;
+        text-align: center;
+        border-radius: 25px;
+      }
+      body {
+        background-color: rgb(26, 0, 50);
+      }
+      #greet {
+        color: dodgerblue;
+        padding-bottom: 15px;
+      }
+    </style>
+    <script>
+      function myfunction() {
+        document.getElementById("greet").innerHTML =
+          "Hey my name buddy[Tobiloba], Happy Birthday! I can't believe another year has gone by, and it feels like just yesterday we were looking for yansh to press. You're not just my best friend, you're family, and I cherish the time we spend together, whether it when we touch some Ass or just chilling and talking about everything and nothing. I'm so lucky to have someone like you in my life, someone who always knows how to make me laugh, even when I'm feeling down. You're one of the most genuine and kind people I know, and I'm so proud to call you my friend. I hope your birthday is as awesome as you are, filled with joy, laughter, and everything you wish for. Let's make this year even better than the last! I'm sending you all my love and best wishes. Happy Birthday, my brother!";
+        document.getElementById("greet").style.color = "gold";
+
+        document.getElementById("fan").style.margin = "100px 150px";
+        document.getElementById("fan").style.textalign = "center";
+      }
+
+      function home() {
+        document.getElementById("greet").innerHTML = "Happy Birthday Tobi";
+        document.getElementById("greet").style.color = "dodgerblue";
+
+        document.getElementById("fan").style.margin = "200px 200px";
+      }
+    </script>
+  </head>
+  <body id="fan">
+    <p
+      id="greet"
+      onclick="this.innerHTML='Fuck You!!!'"
+      ondblclick="this.innerHTML='Happy Birthday Tobi'"
+    >
+      Happy Birthday Tobi
+    </p>
+    <button type="button" onclick="myfunction()">Greets</button>
+    <button type="button" onclick="home()">Home</button>
+  </body>
+</html>
